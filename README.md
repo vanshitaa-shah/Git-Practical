@@ -43,18 +43,21 @@ Make example of pull request and two branch merge event.
 
     ![github review changes](./images/task1/review_changes.png)
 
+
     ![github merge PR](./images/task1/merge_pull.png)
+
 
     ![github confirm merge PR](./images/task1/merge_confirm.png)
 
   - Step-9 : Now if you want you can delete feature branch.
 
   - Step-10 : Pull the changes in local, so now remote and local branch are up-to-date.
-    `bash
-        git checkout main
-        git pull origin main 
-        #or simply git pull will work because upstream is already set.
-    `
+  
+    ```bash
+        git checkout main   
+        git pull origin main   #or simply git pull will work because upstream is already set.
+    ```
+    
     **Workflow**
 
   ![practical 1 workflow](./images/task1/workflow.png)
